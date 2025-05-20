@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "atchatbot"
-version = "0.1.0"
+version = "0.4.2"
 description = "A universal chatbot generation library"
 readme = "README.md"
 authors = [
@@ -28,3 +28,6 @@ dependencies = [
 [project.urls]
 "Homepage" = "https://github.com/achugowda/ATChatbot"
 "Bug Tracker" = "https://github.com/achugowda/ATChatbot/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
